@@ -1,9 +1,9 @@
 {
   "version": 7,
-  "createdAt": 1773317410267,
-  "updatedAt": 1773317705704,
+  "createdAt": 1774055103377,
+  "updatedAt": 1774065436283,
   "name": "RifeBTC full",
-  "id": "rifebtc-full",
+  "id": "rifebtc-fullcopy-1",
   "states": {
     "panes": {
       "_id": "panes",
@@ -505,7 +505,7 @@
       "sellColor": "rgb(233,30,99)",
       "timezoneOffset": 10800000,
       "useAudio": true,
-      "audioVolume": 0.2,
+      "audioVolume": 1,
       "audioFilters": {
         "PingPongDelay": true,
         "Compressor": false,
@@ -528,7 +528,8 @@
         "settings-colors",
         "indicator-left-script",
         "search-type",
-        "trades-audio"
+        "trades-audio",
+        "settings-audio"
       ],
       "searchTypes": {
         "historical": true,
@@ -936,7 +937,7 @@
           "updatedAt": 1623024000000,
           "series": [
             "liquidations",
-            "t10cgbzn"
+            "nikmhxhr"
           ],
           "displayName": "Liquidations",
           "optionsDefinitions": {}
@@ -1018,7 +1019,7 @@
           "optionsDefinitions": {},
           "series": [
             "keltner-channel",
-            "jrmkd7ej"
+            "1l62z04g"
           ],
           "displayName": "Keltner Channel"
         },
@@ -1109,7 +1110,7 @@
           "optionsDefinitions": {},
           "series": [
             "volume",
-            "8ek7c2rc"
+            "wj78vv4a"
           ],
           "displayName": "Volume",
           "unsavedChanges": false
@@ -1213,7 +1214,7 @@
       },
       "layouting": false,
       "showIndicators": false,
-      "timeframe": "1800",
+      "timeframe": "60",
       "refreshRate": 1000,
       "showAlerts": true,
       "showAlertsLabel": true,
@@ -1232,7 +1233,7 @@
       "showRightScale": true,
       "showTimeScale": true,
       "hiddenMarkets": {},
-      "barSpacing": 3.834417993437839,
+      "barSpacing": 3.8492070402671645,
       "_id": "chart",
       "navigationState": {
         "tab": "script",
@@ -1413,7 +1414,7 @@
       "audioThreshold": null,
       "multipliers": {},
       "maxRows": 100,
-      "muted": false,
+      "muted": true,
       "audioPitch": null,
       "audioVolume": null,
       "showPairs": false,
@@ -1425,6 +1426,7 @@
       "showPrices": true,
       "showHistograms": true,
       "thresholdsMultipler": 1,
+      "showAvgPrice": true,
       "_id": "trades3",
       "showThresholdsAsTable": true
     },
@@ -1665,7 +1667,7 @@
               "top": 0.74,
               "bottom": 0.03
             },
-            "visible": true
+            "visible": false
           },
           "optionsDefinitions": {},
           "series": [
@@ -1780,7 +1782,7 @@
               "bottom": 0.03
             },
             "color": "rgb(59,255,82)",
-            "visible": true
+            "visible": false
           },
           "optionsDefinitions": {},
           "series": [
@@ -1988,7 +1990,7 @@
       "showRightScale": true,
       "showTimeScale": true,
       "hiddenMarkets": {},
-      "barSpacing": 5.244870202851055,
+      "barSpacing": 5.280194096578626,
       "_id": "chart2"
     },
     "trades": {
@@ -2073,7 +2075,7 @@
       "maxRows": 100,
       "muted": false,
       "audioPitch": null,
-      "audioVolume": null,
+      "audioVolume": 4,
       "showPairs": false,
       "showTrades": true,
       "showLiquidations": false,
@@ -2169,7 +2171,7 @@
       "audioThreshold": null,
       "multipliers": {},
       "maxRows": 100,
-      "muted": false,
+      "muted": true,
       "audioPitch": null,
       "audioVolume": null,
       "showPairs": false,
